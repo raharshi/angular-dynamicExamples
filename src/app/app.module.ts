@@ -10,11 +10,13 @@ import { MatSortModule } from '@angular/material/sort';
 import { MatIconModule } from '@angular/material/icon';
 import { AppService } from './app.service';
 import {HttpClientModule, HTTP_INTERCEPTORS} from '@angular/common/http';
+import { DynamicFormFieldsComponent } from './dynamic-form-fields/dynamic-form-fields.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DynamicSelectionTableExampleComponent
+    DynamicSelectionTableExampleComponent,
+    DynamicFormFieldsComponent
   ],
   imports: [
     BrowserModule,
