@@ -23,3 +23,14 @@
     <button mat-button>SHARE</button>
   </mat-card-actions>
 </mat-card>
+
+<ul>
+    <li *ngFor="let item of cars; index as i;">
+        <ng-container [ngTemplateOutlet]="defaultTemplate" 
+             [ngTemplateOutletContext]="{item:item}"></ng-container>
+    </li>
+</ul>
+
+<ng-template #defaultTemplate let-item='item'>
+    {{item.model}} - Default Template
+</ng-template>
