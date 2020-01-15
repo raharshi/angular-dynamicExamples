@@ -38,11 +38,7 @@ export class DynamicFormFieldsComponent implements OnInit {
             wiki:'http://en.wikipedia.org/wiki/Audi_TT',
             img: 'https://upload.wikimedia.org/wikipedia/commons/f/f5/Audi_TT_Coup%C3%A9_2.0_TFSI_quattro_S-line_%288S%29_%E2%80%93_Frontansicht%2C_3._April_2015%2C_D%C3%BCsseldorf.jpg'
         }];
-  foods: any[] = [
-    {value: 'steak-0', viewValue: 'Steak'},
-    {value: 'pizza-1', viewValue: 'Pizza'},
-    {value: 'tacos-2', viewValue: 'Tacos'}
-  ];
+ 
   constructor() { }
 
   ngOnInit() {
